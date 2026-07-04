@@ -1,4 +1,4 @@
-<img width="1171" height="911" alt="2-3-4 magento-recovery" src="https://github.com/user-attachments/assets/b9eb5724-2828-409f-809e-beed975f4d90" /># 🌆 Huawei Cloud Project: Enterprise Cloud Migration & Scalable Magento E-Commerce Platform
+# 🌆 Huawei Cloud Project: Enterprise Cloud Migration & Scalable Magento E-Commerce Platform
 
 **A production-grade Magento e-commerce website on Huawei Cloud, built with ECS + RDS, hardened with cross-network connectivity (VPC Peering & VPC Endpoint), protected by CSBS backup/restore, scaled with ELB, and accelerated with DCS (Redis) and DDM for read/write splitting, validated end-to-end with CPTS performance testing.**
 
