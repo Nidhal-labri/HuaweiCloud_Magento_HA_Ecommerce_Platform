@@ -364,7 +364,7 @@ Created a DDM account, `root`, with full permissions.
 
 Created an unsharded schema, `db_web`, bound to `rds-web`, and recorded its connection address.
 
-**📷 `3-4-4 db-web`**: <img width="1221" height="909" alt="3-4-4 db-web" src="https://github.com/user-attachments/assets/0acffb07-981e-42bb-b198-0b02150c74a6" />
+**📷 `3-4-4 db-web`**: <img width="1747" height="586" alt="image" src="https://github.com/user-attachments/assets/01a788b6-4653-4e5b-8403-978f60b32899" />
 
 
 Migrated the live Magento schema from RDS into DDM by exporting the table structure with `mysqldump --no-data`, exporting the table data separately with `mysqldump --no-create-info`, then importing both into the DDM schema over its connection string, and verified matching `admin%` tables existed on both `rds-web` and the new DDM schema.
