@@ -14,7 +14,7 @@ Most cloud demos stop at "deploy a server." This one goes further: it reproduces
 
 ## 🗺️ Network Topology
 
-<img width="1404" height="656" alt="image" src="https://github.com/user-attachments/assets/ded9be3b-d6d7-4683-99ca-47d6f991976d" />
+<img width="1400" height="656" alt="image" src="https://github.com/user-attachments/assets/03dea0a7-4242-4a94-9440-2868b7c611b8" />
 
 **AZ2** simulates the local (on-premises) data center used for O&M and backup. **AZ1** simulates the cloud data center running the live website. The two are connected via **VPC Peering** (bidirectional) and a **VPC Endpoint** (unidirectional, point-to-point access for security-sensitive services), reflecting how a real migration keeps some legacy systems talking to the new cloud environment without fully opening the network.
 
